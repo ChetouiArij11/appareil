@@ -1,0 +1,11 @@
+
+
+
+    <app-appareil-item [AppareilNom]="i.nom" [AppareilStatus]="i.status" [index]="in" *ngFor="let i of appareil, let in= index"></app-appareil-item>
+
+
+
+    <button class="btn btn-primary" (click)="onAllumerTout()">Allumer tout</button> &nbsp;&nbsp;&nbsp;
+    <button class="btn btn-danger" (click)="onFermerTout()">Fermer tout</button>
+
+
